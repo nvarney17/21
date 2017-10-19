@@ -24,7 +24,7 @@ function counting(player,current,steps) {
 	for (index=0;index<steps;index++) {
 		game[index]=current+index+1;
 	}
-	alert(player+": "+game");
+	alert(player+": "+game);
 	current=parseInt(current)+parseInt(steps);
 	return current;
 }
