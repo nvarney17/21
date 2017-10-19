@@ -12,7 +12,7 @@ do {//end at 21
 	//call counting function for computer, at 2 steps each time
 	player = "me";
 	steps = 2; //temporary - computer always counts 2 steps
-	count - counting(player,count,steps);
+	count = counting(player,count,steps);
 }
 while (count < 21);
 
